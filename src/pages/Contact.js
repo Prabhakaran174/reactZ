@@ -3,19 +3,20 @@ import { Link } from 'react-router-dom'
 export default function Contact() {
   return (
    <React.Fragment>
+       
    <nav class="navbar">
       <div class="nav-center">
         <div class="nav-header">
           <a href="index.html" class="nav-logo">
-            <img src="./assets/logoZ.svg" alt="Karan recipes" />
+            <img src="./assetsZ/assets/logoZ.svg" alt="Karan recipes" />
           </a>
           <button class="nav-btn btn">
             <i class="fas fa-align-justify"></i>
           </button>
         </div>
         <div class="nav-links">
-          <a href="index.html" class="nav-link"> Home </a>
-          <a href="about.html" class="nav-link"> About </a>
+        <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
           <a href="tags.html" class="nav-link"> Dishes</a>
           <a href="recipes.html" class="nav-link"> Recipes </a>
 
@@ -65,7 +66,7 @@ export default function Contact() {
 
           <a href="single-recipe.html" class="recipe">
             <img
-              src="./assets/south/recipesX/appam1.jpg"
+              src="./assetsZ/assets/south/recipesX/appam1.jpg"
               class="img recipe-img"
               alt=""
             />
@@ -75,7 +76,7 @@ export default function Contact() {
          
           <a href="single-recipe.html" class="recipe">
             <img
-              src="./assets/south/recipesX/dosa2.jpg"
+              src="./assetsZ/assets/south/recipesX/dosa2.jpg"
               class="img recipe-img"
               alt=""
             />
@@ -85,7 +86,7 @@ export default function Contact() {
           
           <a href="single-recipe.html" class="recipe">
             <img
-              src="./assets/south/recipesX/idly3.jpg"
+              src="./assetsZ/assets/south/recipesX/idly3.jpg"
               class="img recipe-img"
               alt=""
             />
